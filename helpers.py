@@ -10,6 +10,7 @@ ENCODINGS = ["ASCII", "UTF-8", "UTF-16", "UTF-32"]
 utf8_repr = {"A": 0b01000001, "C": 0b01000011, "T": 0b01010100, "G": 0b01000111}
 compact_repr = {"A": 0, "C": 1, "T": 2, "G": 3}
 
+
 def get_binary_repr(seq: str, to_chunks=False):
     seq = np.array([utf8_repr[c] for c in seq], dtype=np.uint8)
 
@@ -65,7 +66,9 @@ def plot_bin_vs_compact(df: pd.DataFrame):
     )
 
     # Compact lengths
-    plt.bar(index + bar_width, bin_means, bar_width, label="Compact Length", color="orange")
+    plt.bar(
+        index + bar_width, bin_means, bar_width, label="Compact Length", color="orange"
+    )
 
     plt.xlabel("Binary Length Bins")
     plt.ylabel("Mean Length")
@@ -123,7 +126,6 @@ def plot_storage_saved_for_each_encoding():
     # add horizontal grid lines
     plt.grid(axis="y", linestyle="--", alpha=0.7)
 
-
     plt.tight_layout()
     plt.show()
 
@@ -157,7 +159,6 @@ def print_data_for_k(k):
             f"If the encoding was {encoding}\twith k={k}, storage saved: {delta * 100:.2f}%"
         )
     print()
-
 
 
 # def encode_dna_bin(bin_seq: np.ndarray):
