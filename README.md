@@ -52,3 +52,12 @@ Calculates the storage savings for a given k value and encoding type.
 **encoding:** Encoding type (e.g., **"ASCII"**, **"UTF-8"**, **"UTF-16"**, **"UTF-32"**).
 
 <img src="Results_Graphs/diff_encodings.png" alt="Different Encodings">
+
+## Egyptian Genome Project
+
+Our findings hold promise for the Egypt Genome project, providing a blueprint for efficient data management and analysis. By leveraging compact representations, the project can optimize storage utilization and computational resources, accelerating genomic research in Egypt and beyond.
+
+<div style="display: flex;">
+    <img src="https://media.giphy.com/media/WABWdcC624Tqo/giphy.gif" style="width: 50%;" alt="In love of Bioinformatics">
+    <img src="Results_Graphs/Egypt_Genome.png" style="width: 50%;" alt="Egyptian Genome">
+</div>
