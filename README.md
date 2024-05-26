@@ -57,8 +57,8 @@ Calculates the storage savings for a given k value and encoding type.
 
 Our findings hold promise for the Egypt Genome project, providing a blueprint for efficient data management and analysis. By leveraging compact representations, the project can optimize storage utilization and computational resources, accelerating genomic research in Egypt and beyond.
 
-<div style="display: flex; justify-content: center;">
-    <img src="https://media.giphy.com/media/WABWdcC624Tqo/giphy.gif"  alt="In love of Bioinformatics" height="300">
-    <img src="Results_Graphs/Egypt_Genome.png" alt="Egyptian Genome" height="300">
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img src="https://media.giphy.com/media/WABWdcC624Tqo/giphy.gif"  alt="In love of Bioinformatics" height="250">
+    <img src="Results_Graphs/Egypt_Genome.png" alt="Egyptian Genome" height="250">
   
 </div>
